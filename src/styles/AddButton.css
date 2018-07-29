@@ -1,0 +1,25 @@
+.add-button {
+  align-items: center;
+  background: #e4655a;
+  border-radius: 50%;
+  box-shadow: 2px 2px 8px #777777;
+  color: #fff;
+  display: flex;
+  font-size: 64px;
+  font-weight: bold;
+  height: 100px;
+  justify-content: center;
+  text-align: center;
+  user-select: none;
+  width: 100px;
+}
+
+.add-button:hover {
+  background: salmon;
+  cursor: pointer;
+  transition: 200ms;
+}
+
+.add-button:focus {
+  outline: none;
+}
